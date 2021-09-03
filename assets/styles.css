@@ -1,0 +1,142 @@
+.container {
+    /* height: 600px;
+     background-color: #f44336;
+     flex: 1;*/
+     text-align: center;
+ }
+ .Title{
+     padding-top: 1rem;
+     font-size: 3rem;
+     font-family: monospace;
+ }
+ 
+ /* Buttons */
+ .Button {
+     background: black;
+     color: #fff;
+     border-radius: 5px;
+     outline: none;
+     padding: 0.7rem 2rem;
+     transform: translateY(-3px);
+     border: none;
+     font-family: monospace;
+     cursor: pointer;
+     box-shadow: 0 2px grey;
+ }
+ 
+ .Button:hover {
+     background-color: gray;
+    /* transform: translateY(1px);*/
+ 
+ }
+ 
+ .Button:active{
+     background-color: grey;
+     box-shadow: 0 2px #666;
+     transform: translateY(0.2rem);
+ }
+ 
+ .ButtonRED {
+     background: black;
+     color: #fff;
+     border-radius: 5px;
+     outline: none;
+     padding: 0.7rem 2rem;
+     transform: translateY(-3px);
+     border: none;
+     font-family: monospace;
+     cursor: pointer;
+     box-shadow: 0 2px grey;
+ }
+ 
+ .ButtonRED:hover {
+     background-color: #DA2550;
+     transition: ease-in;
+     content: inherit + "?";
+ }
+ 
+ .ButtonRED:active{
+     background-color: darkred;
+     box-shadow: 0 2px #666;
+     transform: translateY(0.2rem);
+ }
+ 
+ .ButtonDEL{
+     background: black;
+     color: #fff;
+     border-radius: 5px;
+     outline: none;
+     padding: 0.7rem 2rem;
+     transform: translateY(-3px);
+     border: none;
+     font-family: monospace;
+     cursor: pointer;
+     box-shadow: 0 2px grey;
+ }
+ 
+ 
+ /* End buttons*/
+ 
+ .InputBox{
+     margin-top: 1rem;
+     font-size: 1.5rem;  
+ }
+ 
+ .Column{
+     width: 1000px;
+     text-align: center;
+     transform: translateX(42rem);
+ }
+ 
+ .List{
+     padding: 0rem;
+     padding-right: 0rem;
+     list-style: outside;
+     text-align: left;
+     width: 700px;
+     background-color: white;
+ }
+ 
+ .Items{
+     overflow-wrap: break-word;
+     padding-top: 1rem;
+     font-family: monospace;
+     font-size: 2rem;
+     color: black;
+ }
+ 
+ .Status{
+     transform: translateY(10rem);
+     margin-left: 0rem;
+     padding-top: 0rem;
+     font-family: monospace;
+     font-size: 2rem;
+     font-style: italic;
+     color: #9696D5;
+ }
+ 
+ .Done{
+     text-decoration: line-through;
+   /*  color: gray; */
+ }
+ 
+ .StatusDone{
+     color:#80A222
+ }
+ 
+ .StatusPending{
+     color:#DA2550
+ }
+ 
+ .StatusWIP{
+     color: #4F3AC4;
+ }
+ 
+ .Counter{
+     text-align: center;
+     transform:translateY(10rem);
+     padding-top: 1px;
+     font-family: monospace;
+     font-size: 1rem;
+     color: black;
+ }
